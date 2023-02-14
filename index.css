@@ -1,0 +1,66 @@
+*{
+     margin:0px;
+    padding:0px; 
+}
+
+.navbar{
+    display: flex;
+    background-color: black;
+    position:sticky;
+    top:0px;
+
+    padding:2px;
+    margin:2px;
+}
+
+.navlist{
+    width:50vw;
+    display: flex;
+    align-items: center;     /* vertical   */
+    justify-content: center;
+}
+
+.navlist li{
+    list-style: none;
+    padding:20px;
+    margin:8px;
+
+}
+
+.navlist li a{
+    text-decoration: none;
+    color:white;
+}
+.navlist li a:hover{
+    color:black;
+    background-color: white;
+}
+
+.logo img{
+    height:50px;
+    width:50px;
+    border-radius: 50px;
+
+}
+
+.rightnav{
+    width:50vw;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.btn{
+    width:10%;
+    background-color: black;
+    color:white;
+    border:2px solid black;
+}
+
+.btn:hover{
+    background-color: white;
+    color:black;
+}
+
+
